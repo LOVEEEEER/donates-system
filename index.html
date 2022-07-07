@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Донаты</title>
+  </head>
+  <body>
+    <form class="donate-form">
+      <h1 id="total-amount">28$</h1>
+      <label class="donate-form__input-label">
+        Введите сумму в $
+        <input
+          class="donate-form__donate-input"
+          name="amount"
+          type="number"
+          max="100"
+          min="1"
+          required=""
+        />
+      </label>
+      <button class="donate-form__submit-button" type="submit">
+        Задонатить
+      </button>
+    </form>
+
+    <div class="donates-container">
+      <h2 class="donates-container__title">Список донатов</h2>
+      <div class="donates-container__donates">
+        <div class="donate-item">July 6th 2021, 10:28:49 am - <b>4$</b></div>
+        <div class="donate-item">July 6th 2021, 10:28:49 am - <b>20$</b></div>
+        <div class="donate-item">July 6th 2021, 10:28:49 am - <b>3$</b></div>
+        <div class="donate-item">July 6th 2021, 10:28:49 am - <b>1$</b></div>
+      </div>
+    </div>
+  </body>
+</html>
